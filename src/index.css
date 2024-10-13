@@ -1,0 +1,87 @@
+/* Container styling */
+.table-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* Full viewport height */
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.content {
+  text-align: center; /* Center title and table */
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Title styling */
+.title {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Button styling */
+.undo-button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.undo-button:hover {
+  background-color: #45a049;
+}
+
+.undo-button:disabled {
+  background-color: #bdbdbd;
+  cursor: not-allowed;
+}
+
+/* Table styling */
+.fancy-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+}
+
+.fancy-table th,
+.fancy-table td {
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.fancy-table thead {
+  background-color: #f2f2f2;
+  color: #333;
+}
+
+.fancy-table tbody tr {
+  transition: background-color 0.3s ease;
+}
+
+.fancy-table tbody tr:hover {
+  background-color: #f1f1f1;
+}
+
+/* Delete button styling */
+.delete-button {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.delete-button:hover {
+  background-color: #e53935;
+}
